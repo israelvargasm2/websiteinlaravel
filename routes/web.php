@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Log;
 |
 */
 
-Route::get('/', HomeController::class, 'index')->name('home');
+Route::get('/', HomeController::class)->name('home');
 
 Route::get('about-me', [AboutmeController::class, 'index'])->name('aboutme');
 
