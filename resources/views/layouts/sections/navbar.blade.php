@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-dark text-white">
         <div class="container-fluid text-white">
             <a class="navbar-brand text-white" href="{{ route('home') }}">@lang('messages.navbar-item-logo')</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            <button class="navbar-toggler" style="background: white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
