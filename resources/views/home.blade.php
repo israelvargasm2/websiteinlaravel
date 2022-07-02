@@ -40,7 +40,7 @@
                 @foreach ($images as $image)
                     <article class="col pb-5">
                         <div class="card bg-dark mx-auto" style="width: 18rem;">
-                            <img src="{{ asset('storage/'.$image->url) }}" class="card-img-top" alt="...">
+                            <img src="{{ asset($image->url) }}" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text h3 text-center">{{ $image->description }}</p>
                             </div>
