@@ -8,7 +8,7 @@ return [
     'navbar-item-aboutme' => 'ABOUT ME',
     'navbar-item-contact' => 'CONTACT',
     'title' => "HI! I'm Israel and I'm a web developer.",
-    'subtitle' => 'This website was developed in Laravel 9',
+    'subtitle' => 'This website was developed in Laravel 9.',
     "home-item-tools" => "This page was developed with tools like:",
     'about-me-item-paragraph-1' => "Who I'm?",
     'about-me-item-paragraph-2' => "Hello! My name is Israel Vargas Montoya, and I'm a
