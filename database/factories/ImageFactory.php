@@ -22,7 +22,9 @@ class ImageFactory extends Factory
     public function definition()
     {
         return [
-            'url' => 'img/' . $this->faker->image('public/storage/posts', 640, 480, null, false)
+            // 'url' => 'img/' . $this->faker->image('public/storage/posts', 640, 480, null, false)
+            'url' => "post/bootstrap-logo.svg",
+            'description' => "post/css-logo.svg"
         ];
     }
 }

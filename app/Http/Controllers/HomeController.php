@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Image;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
@@ -9,8 +10,8 @@ use Illuminate\Support\Facades\App;
 class HomeController extends Controller
 {
     public function __invoke() {
-        $posts = Post::all();
-        return view('home', compact('posts'));
+        $images = Image::all();
+        return view('home', compact('images'));
     }
 
     public function lang($locale)

@@ -9,11 +9,11 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav w-100 d-flex justify-content-between">
                     <ul class="navbar-nav">
-                        <li class="navbar-item"><a class="nav-link link-hover text-center" aria-current="page"
+                        <li class="navbar-item"><a class="nav-link link-hover" aria-current="page"
                                 href="{{ route('home') }}">@lang('messages.navbar-item-home')</a></li>
-                        <li class="navbar-item"><a class="nav-link link-hover text-center"
+                        <li class="navbar-item"><a class="nav-link link-hover"
                                 href="{{ route('aboutme') }}">@lang('messages.navbar-item-aboutme')</a></li>
-                        <li class="navbar-item"><a class="nav-link link-hover text-center"
+                        <li class="navbar-item"><a class="nav-link link-hover"
                                 href="{{ route('contact') }}">@lang('messages.navbar-item-contact')</a></li>
                     </ul>
                     <div id="btnLang" class="dropdown">

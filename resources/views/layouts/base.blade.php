@@ -14,9 +14,11 @@
 
     {{-- navbar --}}
     @include('layouts.sections.navbar')
-
+    
     {{-- yield-content --}}
     @yield('content')
+
+    @include('layouts.sections.load')
 
     {{-- footer --}}
     @include('layouts.sections.footer')
