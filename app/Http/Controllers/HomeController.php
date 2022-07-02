@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\App;
 
 class HomeController extends Controller
 {
-    public function __invoke() {
+    public function index() {
         $images = Image::all();
         return view('home', compact('images'));
     }
