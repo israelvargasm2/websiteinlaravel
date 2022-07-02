@@ -15,8 +15,6 @@
                         <div class="w-100">
                             <img class="w-100" src="{{ asset('img/laravel-logo.svg') }}" alt="">
                         </div>
-                        
-
                     </div>
                 </div>
             </section>

@@ -14,10 +14,10 @@ return [
     'about-me-item-paragraph-2' => "Hello! My name is Israel Vargas Montoya, and I'm a
         Mexican developer. I'm passionate about programming and coding. I'm currently a
         student at the Tecnológico Nacional de México campus San Luis Potosí.",
-    'about-me-item-paragraph-3' => 'I have knowledge in HTML5 + CSS + Javascript for 
-        Frontend development. I use PHP, Python and mysql for Backend programming. I also 
-        have knowledge in Bootstrap, JQuery, Python libraries like Flask and frameworks 
-        like Laravel.',
+    'about-me-item-paragraph-3' => 'I have knowledge in HTML5 + CSS + Javascript to
+    Front end development. I use PHP, Python, PostgreSQL and MySQL for Backend programming.
+    I also have knowledge in Git, Heroku, Bootstrap, JQuery, Python libraries like Flask and
+    frameworks like Laravel.',
     'about-me-item-paragraph-4' => 'Computer Systems Engineer',
     "contact-item-title" => "CONTACT",
     "contact-item-form-title" => "Contact me",
